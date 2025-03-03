@@ -1,0 +1,165 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    margin: 0%;
+}
+
+nav{
+    background-color: rgb(80, 68, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoaulab{
+    width: 100px;
+    height: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+
+}
+
+.link:hover{
+    border-bottom: 2px solid rgb(225, 245, 9);
+}
+
+.listlink{
+    list-style-type: none;
+    display: flex;
+}
+
+header{
+    background-image: url(./media/cpu.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.linkhome{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.btnarticle{
+    background-color: rgb(80, 68, 213);
+    color: black;
+}
+
+.btnarticle:hover{
+    background-color: rgb(225, 245, 9);
+    color: black;
+}
+
+.titleArticle {
+    text-align: center;
+}
+
+.imgarticle{
+    width: 300px;
+}
+
+.positionarticle {
+
+display: flex;
+width: 60%;
+
+}
+aside{
+    background-color: rgb(225, 245, 9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    
+main{
+    display:flex
+}
+
+footer{
+    background-color: rgb(80, 68, 213);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.imgicon{
+    width: 50px;
+    height: 50px;
+    animation-name: icon;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    top: 80vh;
+    background-color: gray;
+}
+
+@keyframes icon{
+    0%{
+        transform: translateY(70px);
+    }100%{
+        transform: translateY(0px);
+
+    }
+}
+
+@media screen and (max-width:600px){
+    .link{
+        font-size: 10px;
+    }
+    .logoaulab{
+        width: 50px;
+        height: 50px;
+    }
+    .positionarticle{
+        display: block;
+        width: 100%;
+    }
+    
+    aside{
+        width: 100%;
+        display: block;
+    }
+
+    main{
+        display: block;
+    }
+
+    article{
+        margin: 30px 0px; 
+    }
+
+    footer{
+        display: block;
+    }
+
+}
+    
+
+
+    
+   
+
+       
+    
+
+    
