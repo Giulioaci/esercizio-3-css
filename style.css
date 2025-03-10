@@ -152,6 +152,11 @@ footer{
         display: block;
     }
 
+    .imgicon{
+        position: fixed;
+        right: 5%;
+
+    }
 }
     
 
